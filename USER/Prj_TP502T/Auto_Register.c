@@ -84,6 +84,7 @@ u8 Regdit_SendInfor()
 	i+=GetStringByFmt((char *)&Buf[i],"\"device_no\":\"%s\",",Num);
 	i+=GetStringByFmt((char *)&Buf[i],"\"device_name\":\"ÎÂÊª¶È\",");
 	i+=GetStringByFmt((char *)&Buf[i],"\"hw_version\":\"%d.%d.%d\",",__STM32F10X_STDPERIPH_VERSION_MAIN,__STM32F10X_STDPERIPH_VERSION_SUB1,__STM32F10X_STDPERIPH_VERSION_SUB2);
+	i+=GetStringByFmt((char *)&Buf[i],"\"sw_version\":\"6.30\",");
 	i+=GetStringByFmt((char *)&Buf[i],"\"dev_mode\":\""Board_Name"\",");
 	Get_PragmDateTime(Date);i+=GetStringByFmt((char *)&Buf[i],"\"create_date\":\"%s "__TIME__"\",",Date);
 	i+=GetStringByFmt((char *)&Buf[i],"\"mcu_mode\":\"%s\"}",CPU_Model);
@@ -117,6 +118,7 @@ R:
 	i+=GetStringByFmt((char *)&Buf[i],"\"device_no\":\"%s\",",Num);
 	i+=GetStringByFmt((char *)&Buf[i],"\"device_name\":\"ÎÂÊª¶È\",");
 	i+=GetStringByFmt((char *)&Buf[i],"\"hw_version\":\"%d.%d.%d\",",__STM32F10X_STDPERIPH_VERSION_MAIN,__STM32F10X_STDPERIPH_VERSION_SUB1,__STM32F10X_STDPERIPH_VERSION_SUB2);
+	i+=GetStringByFmt((char *)&Buf[i],"\"sw_version\":\"6.30\",");
 	i+=GetStringByFmt((char *)&Buf[i],"\"dev_mode\":\""Board_Name"\",");
 	Get_PragmDateTime(Date);i+=GetStringByFmt((char *)&Buf[i],"\"create_date\":\"%s "__TIME__"\",",Date);
 	i+=GetStringByFmt((char *)&Buf[i],"\"mcu_mode\":\"%s\"}",CPU_Model);

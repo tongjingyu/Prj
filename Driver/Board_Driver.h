@@ -23,4 +23,8 @@ void GPIO_InitList(const GPIO_InitStruct *List);
 void IWDG_Configuration(void);
 void IWDG_Reload(void);
 void Standby_Init(void);
+void SysTick_Set(void);
+void IAP_ProgramHalfWord(uint32 Address, uint16 Data);
+void IAP_ErasePage(uint32 Page_Address);
+void IAP_Lock(void);
 #endif

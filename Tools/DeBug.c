@@ -1,9 +1,8 @@
 #include <Include.h>
 #include <Tos_Include.h>
-#include <Usart_Driver.h>
 #include <text.h>
 #include <DeBug.h>
-
+#include <Usart_Driver.h>
 DeBug_CallBack DeBug_CB;
 
 uint8 DeBug_EN=0xff;//哪些线程可以使用打印

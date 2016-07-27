@@ -5,8 +5,7 @@
 #include <math.h>
 #include <Define.h>
 
-#include <Include.h>
-#include <STM32LIB_Include.h>
+#include <stm32f10x.h>
 #include <Tos_Include.h>
 #include <..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_include.h>
 

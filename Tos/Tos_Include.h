@@ -4,7 +4,6 @@
 #include <Include.h>
 #include <Tos.h>
 #include <Tos_Timer.h>
-#include <Tos_Timed.h>
 #include <Tos_device.h>
 #include <LockCode.h>
 #include <Tos_Mema.h>

@@ -3,11 +3,7 @@
 
 #include <Include.h>
 #include <LCD_Driver.h>
-#include <flash_driver.h>
-#include <Board_Driver.h>
-#include <Can1_Driver.h>
-#include <i2c_driver.h>
 #include <Usart_Driver.h>
-
+#include <I2C_Driver.h>
 #endif
 

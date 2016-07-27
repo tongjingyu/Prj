@@ -370,4 +370,62 @@ void QuectelM26_ShowSMS()
 
 }
 
-	
+	uint8 Task_SendMsg()
+{
+	uint8 i=0,c=0;
+	char Buf[200];
+	static uint8 OLDFlag=0xff,z=0;
+	uint8 ThisBit;
+	ThisBit=UIShowValue.RunFlag&(WRF_CH1Max|WRF_CH1Min|WRF_CH2Max|WRF_CH2Min);
+	DeBug("Count=%d,CH1=%.2f,CH2:%.2f",z,UIShowValue.CH_Value[0],UIShowValue.CH_Value[1],Infor_Warning);
+	if(OLDFlag==0xff)OLDFlag=ThisBit;
+	if(ThisBit!=OLDFlag)
+	{
+		z++;
+		if(z>UIShowValue.SaveValue.SendSMSDelay)
+		{
+		c=StringCoppy(&UIShowValue.SaveValue.PrintfTitle[0],&Buf[0]);
+		i=GetStringByFmt(&Buf[c],"恢复CH1=%.2f,CH2:%.2f",UIShowValue.CH_Value[0],UIShowValue.CH_Value[1]);
+		if(UIShowValue.RunFlag&WRF_CH1Max)i=GetStringByFmt(&Buf[c],"触发CH1=%.2f,MAX:%.2f",UIShowValue.CH_Value[0],UIShowValue.SaveValue.CH_Limit[0].Max);
+		if(UIShowValue.RunFlag&WRF_CH1Min)i=GetStringByFmt(&Buf[c],"触发CH1=%.2f,Min:%.2f",UIShowValue.CH_Value[0],UIShowValue.SaveValue.CH_Limit[0].Min);
+		if(UIShowValue.RunFlag&WRF_CH2Max)i=GetStringByFmt(&Buf[c],"触发CH2=%.2f,MAX:%.2f",UIShowValue.CH_Value[1],UIShowValue.SaveValue.CH_Limit[1].Max);
+		if(UIShowValue.RunFlag&WRF_CH2Min)i=GetStringByFmt(&Buf[c],"触发CH2=%.2f,Min:%.2f",UIShowValue.CH_Value[1],UIShowValue.SaveValue.CH_Limit[1].Min);
+		i+=c;
+		if(i%2==1)i+=GetStringByFmt(&Buf[i]," ");
+		DeBug("短信内容[%d]:%s",i,&Buf[0],Infor_Warning);
+		i=QuectelM26_SendTextMsg((uint8*)&Buf[0]);
+		Tos_TaskDelay(5000);
+		OLDFlag=ThisBit;
+		}
+	}
+	if(ThisBit==OLDFlag)z=0;
+	return i;
+}
+	uint8 Task_SendWhileMsg()
+{
+	uint8 i=0,c=0;
+	char Buf[200];
+	static uint16 z=0;
+	uint8 ThisBit;
+	ThisBit=UIShowValue.RunFlag&(WRF_CH1Max|WRF_CH1Min|WRF_CH2Max|WRF_CH2Min);
+	DeBug("Count=%d,CH1=%.2f,CH2:%.2f",z,UIShowValue.CH_Value[0],UIShowValue.CH_Value[1],Infor_Warning);
+	if(ThisBit>0)
+	{
+		z++;
+		if(z%50==UIShowValue.SaveValue.SendSMSDelay)
+		{
+		c=StringCoppy(&UIShowValue.SaveValue.PrintfTitle[0],&Buf[0]);
+		i=GetStringByFmt(&Buf[c],"恢复CH1=%.2f,CH2:%.2f",UIShowValue.CH_Value[0],UIShowValue.CH_Value[1]);
+		if(UIShowValue.RunFlag&WRF_CH1Max)i=GetStringByFmt(&Buf[c],"触发CH1=%.2f,MAX:%.2f",UIShowValue.CH_Value[0],UIShowValue.SaveValue.CH_Limit[0].Max);
+		if(UIShowValue.RunFlag&WRF_CH1Min)i=GetStringByFmt(&Buf[c],"触发CH1=%.2f,Min:%.2f",UIShowValue.CH_Value[0],UIShowValue.SaveValue.CH_Limit[0].Min);
+		if(UIShowValue.RunFlag&WRF_CH2Max)i=GetStringByFmt(&Buf[c],"触发CH2=%.2f,MAX:%.2f",UIShowValue.CH_Value[1],UIShowValue.SaveValue.CH_Limit[1].Max);
+		if(UIShowValue.RunFlag&WRF_CH2Min)i=GetStringByFmt(&Buf[c],"触发CH2=%.2f,Min:%.2f",UIShowValue.CH_Value[1],UIShowValue.SaveValue.CH_Limit[1].Min);
+		i+=c;
+		if(i%2==1)i+=GetStringByFmt(&Buf[i]," ");
+		DeBug("短信内容[%d]:%s",i,&Buf[0],Infor_Warning);
+		i=QuectelM26_SendTextMsg((uint8*)&Buf[0]);
+		Tos_TaskDelay(5000);
+		}
+	}else z=0;
+	return i;
+}

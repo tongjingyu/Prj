@@ -6,8 +6,10 @@
 
 **************************************************************************************/
 
-
-
+extern void IAP_Lock(void);
+extern void IAP_Unlock(void);
+extern void IAP_ProgramHalfWord(uint32 Address, uint16 Data);
+extern void IAP_ErasePage(uint32 Page_Address);
 
 /**************************************************************************************
  Func: 单片机内部flash编程
@@ -21,13 +23,13 @@ void Flash_WriteData(uint32 Addr,void *Data,uint16 Size)
 	uint16 i,c=0;
 	uint16 *P;
 	P=(uint16 *)Data;
-	FLASH_Unlock();
+	IAP_Unlock();
 	c=Size/SmallPageSize;
 	if(Size%SmallPageSize)c++;
-	for(i=0;i<c;i++)FLASH_ErasePage(Addr+SmallPageSize*c);
+	for(i=0;i<c;i++)IAP_ErasePage(Addr+SmallPageSize*c);
 	i=0;
-	while(Size--)FLASH_ProgramHalfWord(Addr+i++*2,*P++);
-	FLASH_Lock();
+	while(Size--)IAP_ProgramHalfWord(Addr+i++*2,*P++);
+	IAP_Lock();
 }
 /**************************************************************************************
  Func: Flash内部falsh数据

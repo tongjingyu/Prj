@@ -23,5 +23,4 @@ void DeBug_Drop(void);
 void DeBug_OutSet(uint8 OutSet);
 void DeBug_SetType(uint8 Type);
 void DeBug_SetCallBack(DeBug_CallBack DBCB);
-uint16 USART_WriteLine(USART_TypeDef* USARTx,char *fmt,...);
 #endif

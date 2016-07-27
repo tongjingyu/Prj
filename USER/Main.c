@@ -72,6 +72,8 @@
 #include <..\USER\Prj_IAP_Addr0x5000\IAP_main.c>
 #elif defined(BOARD_GEEK_Bast)
 #include <..\USER\Prj_Geek_Bast\Geek_main.c>
+#elif defined(BOARD_HAOYU)
+#include <..\USER\Prj_Haoyu\Haoyu_main.c>
 #else  
 	#error "Missing define: Check Your Project Main.c!"
 #endif

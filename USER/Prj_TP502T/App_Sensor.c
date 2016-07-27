@@ -4,6 +4,7 @@
 #include <App_Sensor.h>
 #include <..\USER\Prj_TP502T\Sensor_Driver.h>
 #include <..\USER\Prj_TP502T\App2.h>
+
 char *String_Ok="OK";
 uint8 tem;
 extern void BEEP_Double(void);
@@ -157,10 +158,6 @@ void Sensor_Command(void *Tags)
 				case SCFF_GetLibVersion:
 						 FmtToBuf((char *)&Buf[0],"V %d.%d.%d n",__STM32F10X_STDPERIPH_VERSION_MAIN,__STM32F10X_STDPERIPH_VERSION_SUB1,__STM32F10X_STDPERIPH_VERSION_SUB2);
 						 Length=10;
-						 break;
-				case SCFF_GetFlashSize:
-						 FmtToBuf((char *)&Buf[0],"%dKb",Get_FlashSize());
-						 Length=5;
 						 break;
 				case SCFF_GetSensorModel:
 						 Length=StringCoppy(SensorModel,&Buf[0]);

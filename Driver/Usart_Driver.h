@@ -1,7 +1,7 @@
 #ifndef USART_DRIVER_H_
 #define USART_DRIVER_H_
 #include <Include.h>
-
+#include <..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h>
 #ifdef USART_CH_SIZE
 #define USART_DEF_CH_SIZE USART_CH_SIZE
 #else 

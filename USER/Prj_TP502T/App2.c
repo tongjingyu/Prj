@@ -126,6 +126,7 @@ void Task_PrintfLog()
 	DeBug("±¸×¢:                           ",Infor_Error);
 	DeBug("\r\n\r\n\r\n                    ",Infor_Error);
 }
+extern void Printf_SysInfor(void);
 void Task0_Init()
 {
  if(!BOOL_LoadConfigs())UIShowValue.SaveValue.DeBugCFG=0xff;

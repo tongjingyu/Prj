@@ -80,7 +80,9 @@
 #elif defined(BOARD_GEEK_Bast)
 #include <..\USER\Prj_Geek_Bast\Ini.h>
 #elif defined(BOARD_TP500L)
-#include <..\USERL\PrjL_TP500\Ini.h>
+#include <..\USER\Prj_TP500\Ini.h>
+#elif defined(BOARD_HAOYU)
+#include <..\USER\Prj_Haoyu\Ini.h>
 
 #else  
 	#error "您首先必须配置好您的项目配置文件Ini.h放置于User目录下"

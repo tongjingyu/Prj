@@ -51,7 +51,10 @@ void GPIO_InitList(const GPIO_InitStruct *List)
 	List++;
 	}
 }
-
+void SysTick_Set()
+{
+	SysTick_Config(Tos_Cpu_Freq/1000);
+}
 void BareDelay(uint32 i)
 {
 	uint32 m;
@@ -93,6 +96,7 @@ void EXTI0_IRQHandler(void)
 	EXTI_ClearITPendingBit(EXTI_Line0); //  清除 LINE10 上的中断标志位   
 	MCU_Reset();	
 } 
+
 void Sys_Standby(void)
 {  
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);  //使能 PWR 外设时钟
@@ -112,7 +116,18 @@ void MCU_Reset(void)
 	__disable_fault_irq();      // STM32 软复位  
 	NVIC_SystemReset();
 }
-
+void IAP_ProgramHalfWord(uint32 Address, uint16 Data)
+{
+	FLASH_ProgramHalfWord(Address,Data);
+}
+void IAP_ErasePage(uint32 Page_Address)
+{
+	FLASH_ErasePage(Page_Address);
+}
+void IAP_Lock()
+{
+		FLASH_Lock();
+}
 void IWDG_Configuration(void)
 {
  IWDG_WriteAccessCmd(IWDG_WriteAccess_Enable); /* 写入0x5555,用于允许狗狗寄存器写入功能 */
