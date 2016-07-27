@@ -3619,27 +3619,27 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       342         16          0          0          0       3821   appconfig.o
-       146          8        512          0          0       2209   cheakout.o
+       342         16          0          0          0       3833   appconfig.o
+       146          8        512          0          0       2217   cheakout.o
          0          0          0          0          0         32   core_cm3.o
-       580         64          0          8          0       3220   debug.o
-       152         12          0          1          0       2233   func_face.o
-       622          0          0          0          0       5752   i2c_driver.o
-     24914       4914      28546         65        272      95253   main.o
-       666          0          0          0          0       2755   modbus.o
+       580         64          0          8          0       3232   debug.o
+       152         12          0          1          0       2237   func_face.o
+       622          0          0          0          0       5764   i2c_driver.o
+     24914       4914      28546         65        272      95425   main.o
+       666          0          0          0          0       2763   modbus.o
         36          8        304          0       1024        760   startup_stm32f10x_hd.o
-      1114        280          0          0          0      25178   stm32_cpu.o
-      3346        234          0         40          0     319634   stm32lib_include.o
-      1570         18          0          0          0      13357   text.o
-      2266        236          0         44          0      13745   tos.o
+      1114        280          0          0          0      25206   stm32_cpu.o
+      3346        234          0         40          0     319758   stm32lib_include.o
+      1570         18          0          0          0      13381   text.o
+      2266        236          0         44          0      13765   tos.o
         80         10          0          0          0        220   tos_core_a.o
-       784        120          0          8          0       4363   tos_device.o
-       180         20          0          4      40000       2697   tos_mema.o
-       140         10          0          4          0       1931   tos_timer.o
-      1922        286          0         20         60      13500   usart_driver.o
+       784        120          0          8          0       4375   tos_device.o
+       180         20          0          4      40000       2705   tos_mema.o
+       140         10          0          4          0       1935   tos_timer.o
+      1922        286          0         20         60      13516   usart_driver.o
 
     ----------------------------------------------------------------------
-     38936       6236      29396        200      41360     510660   Object Totals
+     38936       6236      29396        200      41360     511124   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         76          0          2          6          4          0   (incl. Padding)
 
@@ -3708,8 +3708,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     43520       6342      29396        200      41360     494628   Grand Totals
-     43520       6342      29396        200      41360     494628   ELF Image Totals
+     43520       6342      29396        200      41360     495092   Grand Totals
+     43520       6342      29396        200      41360     495092   ELF Image Totals
      43520       6342      29396        200          0          0   ROM Totals
 
 ==============================================================================

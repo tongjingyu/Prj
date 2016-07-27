@@ -4,7 +4,7 @@
 
 #include <include.h>
 #include <Tos_Include.h>
-
+#include <CPU.h>
 #define ISL1208_ADDR			0x6F
 #define ISL1208_RTC_SECOND 		0x00
 #define ISL1208_RTC_MINUTE		0x01
