@@ -4,13 +4,6 @@
 #include <Include.h>
 
 
-typedef struct 
-{
-	uint8 GPIO_Speed;
-	GPIOMode_TypeDef GPIO_Mode;
-	GPIO_TypeDef *GPIOx;
-	uint16 GPIO_Pin;
-}GPIO_InitStruct;
 
 void Sys_Standby(void);
 void BareDelay(uint32 i);
