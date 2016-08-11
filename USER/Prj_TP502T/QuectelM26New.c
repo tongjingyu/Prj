@@ -287,11 +287,7 @@ R:
 		if(r)goto R;
 	}else
 	{
-		i=StringCoppy("0000",&Buf[0]);
-		USART_WriteLine(USART2,"AT+QISEND=%d\r\n",i);
-		Tos_TaskDelay(1000);
-		USART_WriteDatas(USART2,&Buf[0],i);
-		if(!GPRS_AckDelay("SEND OK",1000))return 2;//检查发送成功
+		return QuectelM26_SendData();//检查发送成功
 	}
 	return 0;
 }
