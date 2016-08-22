@@ -107,13 +107,13 @@ void Task_PrintfLog()
 	DeBug("用户:%s",&UIShowValue.SaveValue.PrintfName[0],Infor_Error);
 	DeBug("标题:%s",&UIShowValue.SaveValue.PrintfTitle[0],Infor_Error);
 	DeBug("********************************",Infor_Error);
-	if(UIShowValue.SaveValue.WorkBit&WCB_DTH11)DeBug("记录时间           温度   湿度  ",0);
-	else DeBug("记录时间           温度   温度  ",0);
+	if(UIShowValue.SaveValue.WorkBit&WCB_DTH11)DeBug("记录时间           温度    湿度 ",0);
+	else DeBug("记录时间           温度      温度",0);
 	while(1)
 	{
 		W25Q16_Read((uint32)i*sizeof(NandHistoryRecord)+RECORDADDR,&NHR,sizeof(NandHistoryRecord));
 		if(NHR.NextAddr==0xffffffff)break;
-		else {i++;DeBug("%02d-%02d-%02d %02d:%02d     %.2f   %.2f",NHR.HR.DT.Year,NHR.HR.DT.Mon,NHR.HR.DT.Day,NHR.HR.DT.Hour,NHR.HR.DT.Min,NHR.HR.CH_Value[0],NHR.HR.CH_Value[1],Infor_Error);}
+		else {i++;DeBug("%02d-%02d-%02d %02d:%02d     %02.2f   %02.2f",NHR.HR.DT.Year,NHR.HR.DT.Mon,NHR.HR.DT.Day,NHR.HR.DT.Hour,NHR.HR.DT.Min,NHR.HR.CH_Value[0],NHR.HR.CH_Value[1],Infor_Error);}
 		if(i%50==49)Tos_TaskDelay(4000);
 		if(i>=0xff)break;
 	}
@@ -232,7 +232,7 @@ void W25Q16_EraseThis(uint32 Addr,uint32 Length)
 	for(n=0;n<i;n++)
 	{
 		SPI_FLASH_SectorErase(Addr+SPI_FLASH_PageSize*n);
-		Tos_TaskDelay(1);
+		Tos_TaskDelay(10);
 		if(n%36==0)DeBug("擦除页%d/%d",n/36,i/36,0);
 	}
 }

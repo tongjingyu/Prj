@@ -17,7 +17,7 @@
 #include <..\USER\Prj_TP502T\ADC_Driver.c>
 #include <..\USER\Prj_TP502T\GPS_Driver.c>
 #include <AT_Command.c>
-#include <..\USER\Prj_TP502T\QuectelM26New.c>
+#include <..\USER\Prj_TP502T\QuectelM26BT.c>
 #include <..\USER\Prj_TP502T\UpgradeByGPRS.c>
 #include <..\USER\Prj_TP502T\Auto_Register.c>
 #include <..\USER\Prj_TP502T\App2.c>
@@ -111,7 +111,7 @@ const TaskInitList TaskList[]={
 {Task_KeyBoard,Null,"Task_KeyBoard",2000},
 {Sensor_Command,USART1,"Sensor_Command",2000},
 {TaskPlan,Null,"TaskPlan",2000},
-{Task_M26,Null,"Task_GPRSSwitch",4000},
+{Task_M26,Null,"GPRS",14000},
 {Task_Arrary,Null,"Task_Arrary",2000},
 {Task_Gps,Null,"Task_Gps",2000},
 {Task_HistoryRecord,Null,"Task_HistoryRecord",2000},

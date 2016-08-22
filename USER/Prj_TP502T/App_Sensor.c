@@ -29,7 +29,7 @@ const COM_MenuStruct MenuList[]={
 	{"上传周期(秒):%d",(void *)&UIShowValue.SaveValue.SendCycle,VT_Uint8,Null},
 	{"短信延迟(分):%d",(void *)&UIShowValue.SaveValue.SendSMSDelay,VT_Uint8,Null},
 	{"记录周期(分):%d",(void *)&UIShowValue.SaveValue.RecordCycle,VT_Uint8,Null},
-	{"MQTT协议支持(True):%s",(void *)&UIShowValue.SaveValue.WorkBit,VT_U32BIT,5},
+	{"TCP-J协议支持(True):%s",(void *)&UIShowValue.SaveValue.WorkBit,VT_U32BIT,5},
 	{"DTH11传感器(True):%s",(void *)&UIShowValue.SaveValue.WorkBit,VT_U32BIT,6},
 	{"通道[1]修正:%.2f℃/%%",(void *)&UIShowValue.SaveValue.CorrectValue[0],VT_Float,Null},
 	{"通道[2]修正:%.2f℃/%%",(void *)&UIShowValue.SaveValue.CorrectValue[1],VT_Float,Null},
