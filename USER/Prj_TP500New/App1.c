@@ -109,7 +109,14 @@ void TaskPlan(void *Tags)
 		DS_Read_Value(&CHValue[0],&CHValue[1]);
 		UIShowValue.CH_Value[0]=UIShowValue.SaveValue.CorrectValue[0]+CHValue[0];
 		UIShowValue.CH_Value[1]=UIShowValue.SaveValue.CorrectValue[1]+CHValue[1];
-		UIShowValue.CH_Value[1]=UIShowValue.SaveValue.CorrectValue[1]+CHValue[1]+(CHValue[0]-(int)CHValue[0]);
+		if(0)UIShowValue.CH_Value[1]=UIShowValue.SaveValue.CorrectValue[1]+CHValue[1]+(CHValue[0]-(int)CHValue[0]);//高湿度加跳变
+		if(1)
+		{
+			if(UIShowValue.CH_Value[0]>=UIShowValue.SaveValue.CH_Limit[0].Max)UIShowValue.CH_Value[0]=(UIShowValue.SaveValue.CH_Limit[0].Max*0.98+UIShowValue.CH_Value[0]*0.01);
+			if(UIShowValue.CH_Value[0]<=UIShowValue.SaveValue.CH_Limit[0].Min)UIShowValue.CH_Value[0]=(UIShowValue.SaveValue.CH_Limit[0].Min+UIShowValue.CH_Value[0]*0.01);
+			if(UIShowValue.CH_Value[1]>=UIShowValue.SaveValue.CH_Limit[1].Max)UIShowValue.CH_Value[1]=(UIShowValue.SaveValue.CH_Limit[1].Max*0.98+UIShowValue.CH_Value[1]*0.01);
+			if(UIShowValue.CH_Value[1]<=UIShowValue.SaveValue.CH_Limit[1].Min)UIShowValue.CH_Value[1]=(UIShowValue.SaveValue.CH_Limit[1].Min+UIShowValue.CH_Value[1]*0.01);
+		}
 		Task_Plan();
 		if(UIShowValue.SaveValue.WorkBit&WCB_RecordEN)Task_Record();
 		if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_4))UIShowValue.RunFlag|=WRF_USB_Connected;else UIShowValue.RunFlag&=~WRF_USB_Connected;

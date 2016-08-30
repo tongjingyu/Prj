@@ -98,10 +98,10 @@ ARM Macro Assembler    Page 2
               00000000 
               00000000 
 Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=..\user\
-prj_tp500new\obj\tos_core_a.d -o..\user\prj_tp500new\obj\tos_core_a.o -I"H:\Pro
-gram Files (x64)\Keil4.72a\ARM\RV31\INC" -I"H:\Program Files (x64)\Keil4.72a\AR
-M\CMSIS\Include" -I"H:\Program Files (x64)\Keil4.72a\ARM\Inc\ST\STM32F10x" --pr
-edefine="__MICROLIB SETA 1" --list=.\list\tos_core_a.lst ..\Tos\tos_core_a.asm
+prj_geek_bast\obj\tos_core_a.d -o..\user\prj_geek_bast\obj\tos_core_a.o -IE:\So
+ft\keil472a\ARM\RV31\INC -IE:\Soft\keil472a\ARM\CMSIS\Include -IE:\Soft\keil472
+a\ARM\Inc\ST\STM32F10x --predefine="__MICROLIB SETA 1" --list=.\list\tos_core_a
+.lst ..\Tos\tos_core_a.asm
 
 
 

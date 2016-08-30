@@ -491,7 +491,6 @@ void Timer_Broken3()
 void Task_M26(void *Tags)
 {
 	uint8 sta,i,FailCount=0,RFailCount;
-	Tos_Timer* T1;
 	HistoryRecord HR;
 	Tos_ArrayMessage *CurMsg,Msg[10];
 	HistoryRecord *TaskMsg,TaskMsgBuf[10];	
@@ -510,10 +509,10 @@ R:
 	PDU_GetCenterNumber();
 	Regdit_SendInfor();
 	QuectelM26_Config();
-	T1=Tos_CreateTimer(UIShowValue.SaveValue.SendCycle,0xffff,Timer_Broken0);
-	T1=Tos_CreateTimer(10,0xffff,Timer_Broken1);
-	T1=Tos_CreateTimer(60,0xffff,Timer_Broken2);
-	T1=Tos_CreateTimer(5,0xffff,Timer_Broken3);
+	Tos_CreateTimer(UIShowValue.SaveValue.SendCycle,0xffff,Timer_Broken0);
+	Tos_CreateTimer(10,0xffff,Timer_Broken1);
+	Tos_CreateTimer(60,0xffff,Timer_Broken2);
+	Tos_CreateTimer(5,0xffff,Timer_Broken3);
 	Timer_Broken0();
 	while(1)
 	{

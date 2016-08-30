@@ -513,34 +513,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -1118,34 +1118,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -1723,34 +1723,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -2328,34 +2328,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -3073,34 +3073,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -3678,34 +3678,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -4283,34 +4283,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -4888,34 +4888,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -5493,34 +5493,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -6098,34 +6098,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -6703,34 +6703,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -7308,34 +7308,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -7913,34 +7913,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -8518,34 +8518,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -9123,34 +9123,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -9728,34 +9728,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -10333,34 +10333,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -10938,34 +10938,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -11683,34 +11683,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -12288,34 +12288,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -12893,34 +12893,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -13498,34 +13498,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -14103,34 +14103,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -14813,34 +14813,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -15523,34 +15523,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -16233,34 +16233,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -16943,34 +16943,34 @@
               <FilePath>..\Tos\Tos_Include.h</FilePath>
             </File>
             <File>
-              <FileName>Project.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Tos\Project.lib</FilePath>
+              <FileName>LockCode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\LockCode.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_device.h</FilePath>
+              <FileName>Tos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Mema.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Mema.h</FilePath>
+              <FileName>Tos_Device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Device.c</FilePath>
             </File>
             <File>
-              <FileName>Tos_Timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\Tos_Timer.h</FilePath>
+              <FileName>Tos_Mema.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_Mema.c</FilePath>
             </File>
             <File>
-              <FileName>tos_core_a.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\tos_core_a.h</FilePath>
+              <FileName>Tos_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tos\Tos_timer.c</FilePath>
             </File>
             <File>
-              <FileName>LockCode.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Tos\LockCode.h</FilePath>
+              <FileName>tos_core_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\Tos\tos_core_a.asm</FilePath>
             </File>
           </Files>
         </Group>
